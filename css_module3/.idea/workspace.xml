@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="810dff3c-b55c-4d9d-9a2d-1c95ac067942" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss6_bt1_nhung_css_vao_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6_bt2_dinh_dang_van_ban_voi_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/CG-DN Case Study for Database_v1.3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/CG-DN Case Study for Database_v1.3_Answer_and_Data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/furama.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/task 11 - 15.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/task 16 - 20.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/task 2 - 5.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/task 6 - 10.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/~$-DN Case Study for Database_v1.3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nhân.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2OfntdEMbj3scRWjOzphQ0rhf4Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Codegym/module3/css_module3",
+    "list.type.of.created.stylesheet": "CSS"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="810dff3c-b55c-4d9d-9a2d-1c95ac067942" name="Changes" comment="" />
+      <created>1681960722694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681960722694</updated>
+      <workItem from="1681960725269" duration="677000" />
+      <workItem from="1681963122459" duration="11000" />
+      <workItem from="1681963269616" duration="13000" />
+      <workItem from="1681963368859" duration="10093000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
