@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="810dff3c-b55c-4d9d-9a2d-1c95ac067942" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ss7_bt1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss7_bt1_tao_layout_voi_cac_the_html_va_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ss7_bt1.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ss7_bt1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss6_bt2_dinh_dang_van_ban_voi_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6_bt2_dinh_dang_van_ban_voi_css.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss7_bt1_tao_layout_voi_cac_the_html_va_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss7_bt1_tao_layout_voi_RWD.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Codegym/module3/css_module3",
-    "list.type.of.created.stylesheet": "CSS"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/module3/css_module3&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -54,7 +53,8 @@
       <workItem from="1681960725269" duration="677000" />
       <workItem from="1681963122459" duration="11000" />
       <workItem from="1681963269616" duration="13000" />
-      <workItem from="1681963368859" duration="12722000" />
+      <workItem from="1681963368859" duration="13320000" />
+      <workItem from="1682066410917" duration="62000" />
     </task>
     <servers />
   </component>
