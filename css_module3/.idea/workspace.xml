@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="810dff3c-b55c-4d9d-9a2d-1c95ac067942" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss6_bt1_nhung_css_vao_html.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6_bt2_dinh_dang_van_ban_voi_css.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/CG-DN Case Study for Database_v1.3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/CG-DN Case Study for Database_v1.3_Answer_and_Data.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/furama.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/task 11 - 15.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/task 16 - 20.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/task 2 - 5.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/task 6 - 10.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CaseSturdyModule3/~$-DN Case Study for Database_v1.3.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nhân.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ss7_bt1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss7_bt1_tao_layout_voi_cac_the_html_va_css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss6_bt2_dinh_dang_van_ban_voi_css.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6_bt2_dinh_dang_van_ban_voi_css.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +54,7 @@
       <workItem from="1681960725269" duration="677000" />
       <workItem from="1681963122459" duration="11000" />
       <workItem from="1681963269616" duration="13000" />
-      <workItem from="1681963368859" duration="10093000" />
+      <workItem from="1681963368859" duration="12722000" />
     </task>
     <servers />
   </component>
