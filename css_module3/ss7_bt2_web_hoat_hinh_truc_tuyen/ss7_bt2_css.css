@@ -1,3 +1,4 @@
+/*Màn hình điện thoai*/
 @media only screen and (max-width:740px ){
     .col-s-1 {width: 8.33333%;}
     .col-s-2 {width: 16.66667%;}
@@ -11,6 +12,7 @@
     .col-s-10 {width: 83.33333%;}
     .col-s-11 {width: 91.66667%;}
     .col-s-12 {width: 100%;}
+
 }
 /*Màn hinh laptop và máy tính bảng*/
 @media only screen and (min-width:741px)and (max-width:1240px){
@@ -26,6 +28,7 @@
     .col-m-10 {width: 83.33333%;}
     .col-m-11 {width: 91.66667%;}
     .col-m-12 {width: 100%;}
+
 }
 /*Màn hình máy tính pc và tivi smart*/
 @media only screen and (min-width:1241px){
@@ -42,6 +45,60 @@
     .col-l-11 {width: 91.66667%;}
     .col-l-12 {width: 100%;}
 }
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+.row{
+    /*cho phép thẻ div (col) nổi lên trên*/
+    display: flex;
+    /*Các thẻ div (col)  không đủ chỗ chứa trên 1 hàng thì rớt xuống*/
+    flex-wrap: wrap;
+}
+.around{
+    margin: 10px 20px 10px 20px;
+}
+.header{
+
+    background-color: #CDCDCD;
+    height: 100px;
+}
+.logo {
+     padding-left: 20px;
+     height: 100%;
+ }
+.line{
+    margin-top: 5px;
+    padding-top: 5px;
+    background-color: #CDCDCD;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+}
+.in-line{
+    font-size: 17px;
+    position: relative;
+    display: inline-block;
+}
+.text_in-line{
+    color: black;
+}
+.hover:hover{
+    color: aliceblue;
+}
+.right{
+    margin-top: 5px;
+    background-color: #CDCDCD;
+}
+.text_right{
+    color: black;
+    font-size: 17px;
+    text-align: justify;
+}
+.left{
+
+}
+
 body{
     font-family: Arial,sans-serif;
     font-size: 0.9em;
@@ -51,9 +108,7 @@ body{
 header {
     height: 100px;
 }
-#logo {
-    height: 80px;
-}
+
 nav {
     background-color: #CDCDCD;
     height: 25px;
