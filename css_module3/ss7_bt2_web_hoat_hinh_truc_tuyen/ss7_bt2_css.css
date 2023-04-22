@@ -86,45 +86,29 @@
 .hover:hover{
     color: aliceblue;
 }
-.right{
-    margin-top: 5px;
-    background-color: #CDCDCD;
-}
-.text_right{
+.text_left{
     color: black;
     font-size: 17px;
     text-align: justify;
 }
 .left{
-
+    margin-top: 5px;
+    background-color: #f1f1f1;
 }
-
+.right{
+    margin-top: 5px;
+    background-color: #f1f1f1;
+}
+.footer{
+    color: black;
+    background-color: #CDCDCD;
+    text-align: center;
+}
 body{
     font-family: Arial,sans-serif;
     font-size: 0.9em;
     margin: 0;
     padding: 0;
-}
-header {
-    height: 100px;
-}
-
-nav {
-    background-color: #CDCDCD;
-    height: 25px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-}
-nav ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-}
-nav ul li {
-
-    line-height: 25px;
 }
 
 a {
@@ -133,26 +117,4 @@ a {
     margin: 0;
 
 
-}
-section {
-    float: right;
-    margin: 0;
-    height: auto;
-}
-section div {
-    padding: 20px;
-    font-size: 1.5em;
-
-}
-aside {
-    float: right;
-}
-aside div {
-    height: 350px;
-    font-size: 1.5em;
-}
-footer {
-    clear: both;
-    background-color: black;
-    color: white;
 }
