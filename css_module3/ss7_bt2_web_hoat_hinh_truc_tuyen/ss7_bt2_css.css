@@ -59,21 +59,26 @@
     margin: 10px 20px 10px 20px;
 }
 .header{
-
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top: 0px;
     background-color: #CDCDCD;
-    height: 100px;
+    height: 80px;
 }
 .logo {
      padding-left: 20px;
      height: 100%;
  }
 .line{
-    margin-top: 5px;
-    padding-top: 5px;
+    margin-top: 05px;
+    padding-top: 2px;
     background-color: #CDCDCD;
     height: 30px;
     justify-content: center;
     display: flex;
+    position: sticky;
+    top:80px;
 }
 .in-line{
     font-size: 17px;
@@ -86,7 +91,10 @@
 .hover:hover{
     color: aliceblue;
 }
-.text_left{
+.hover_text:hover{
+    color: #6c757d;
+}
+.text_right{
     color: black;
     font-size: 17px;
     text-align: justify;
