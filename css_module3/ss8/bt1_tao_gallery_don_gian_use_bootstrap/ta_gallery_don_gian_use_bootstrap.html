@@ -3,10 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <title>bt1</title>
+    <base target="_blank" rel="noopener noreferrer">
     <link rel="stylesheet" href="../bootstrap.css">
     <script src="../bootstrap.js"></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
-
+<div class="container-fluid">
+    <div class="row">
+        <h2>Responsive Image Gallery</h2>
+        <h4>Resize the browser window to see the effect.</h4>
+    </div>
+    <div class="row mx-1">
+        <div class="card col-lg-3 col-sm-6 col-md-3">
+            <a href="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg">
+                <img src="http://demo.codegym.vn/web/15/gallery/img_fjords.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <p class="text-center">Add a description of the image here</p>
+            </div>
+        </div>
+        <div class="card col-lg-3 col-sm-6 col-md-3">
+            <a href="http://demo.codegym.vn/web/15/gallery/img_forest.jpg">
+                <img src="http://demo.codegym.vn/web/15/gallery/img_forest.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <p class="text-center">Add a description of the image here</p>
+            </div>
+        </div>
+        <div class="card col-lg-3 col-sm-6 col-md-3">
+            <a href="http://demo.codegym.vn/web/15/gallery/img_lights.jpg">
+                <img src="http://demo.codegym.vn/web/15/gallery/img_lights.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <p class="text-center">Add a description of the image here</p>
+            </div>
+        </div>
+        <div class="card col-lg-3 col-sm-6 col-md-3">
+            <a href="http://demo.codegym.vn/web/15/gallery/img_mountains.jpg">
+                <img src="http://demo.codegym.vn/web/15/gallery/img_mountains.jpg" class="card-img-top" alt="..."></a>
+            <div class="card-body">
+                <p class="text-center">Add a description of the image here</p>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than
+            700px
+            wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by
+            side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+    </div>
+</div>
 </body>
 </html>
