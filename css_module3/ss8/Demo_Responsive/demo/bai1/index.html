@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav class="flex px-2">
+            <ul class="nav-items">
+                <li class="nav-item">
+                    Logo
+                </li>
+            </ul>
+            <ul class="nav-items main-nav">
+                <li class="nav-item active">
+                    Home
+                </li>
+                <li class="nav-item">
+                    About
+                </li>
+                <li class="nav-item">
+                    Projects
+                </li>
+                <li class="nav-item">
+                    Contact
+                </li>
+            </ul>
+            <ul class="ml-auto nav-items right-nav">
+                <li class="nav-item">
+                    Login
+                </li>
+                <li class="mobile-menu" onclick="openMenu()">
+                    <i id="iconBars" class="fa-solid fa-bars"></i>
+                    <i id="iconClose" class="fa-solid fa-xmark"></i>
+                </li>
+            </ul>
+            <ul id="mobileNav" class="mobile-nav">
+                <li class="nav-item active">
+                    Home
+                </li>
+                <li class="nav-item">
+                    About
+                </li>
+                <li class="nav-item">
+                    Projects
+                </li>
+                <li class="nav-item">
+                    Contact
+                </li>
+                <li class="nav-item">
+                    Login
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="left-sidebar">
+            <ul class="links">
+                <li>
+                    <a href="#">Link</a>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                </li>
+                <li>
+                    <a href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="right-sidebar">
+            <div class="block ads">
+                <div class="adv">ADS</div>
+                <div class="adv">ADS</div>
+            </div>
+        </div>
+    </div>
+    <footer class="flex justify-center items-center">
+        Footer Text
+    </footer>
+</body>
+
+<script>
+    let isOpeningMenu = false;
+    function openMenu() {
+        if (isOpeningMenu) {
+            document.getElementById('mobileNav').style.display = 'none';
+            document.getElementById('iconBars').style.display = 'block';
+            document.getElementById('iconClose').style.display = 'none';
+        } else {
+            document.getElementById('mobileNav').style.display = 'block';
+            document.getElementById('iconBars').style.display = 'none';
+            document.getElementById('iconClose').style.display = 'block';
+        }
+        isOpeningMenu = !isOpeningMenu;
+    }
+</script>
+
+</html>
