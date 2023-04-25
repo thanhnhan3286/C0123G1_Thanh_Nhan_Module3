@@ -20,7 +20,6 @@
 
 .left {
     background: #949494;
-    padding-left: 50px;
 }
 
 .right {
@@ -28,7 +27,7 @@
 }
 
 .center {
-    background: aliceblue;
+    background:none;
     text-align: justify;
     height: 200%;
 
@@ -70,20 +69,30 @@
     margin-right: 5px;
     margin-left: 5px;
 }
+.li-1{
+    list-style: none;
+    margin-top: 10px;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
 
 .login {
     margin-right: 50px;
 }
 
 .button {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 10px;
+    margin-bottom: 0;
     height: 60px;
     width: 120px;
     font-family: Arial;
     font-size: 20px;
     border-radius: 5px;
 
+}
+.justify-center{
+    justify-content: center;
 }
 
 .text {
@@ -99,6 +108,15 @@
 
 /*màn hình điện thoai*/
 @media only screen and (max-width: 740px ) {
+    .li{
+        list-style: none;
+        margin-top: 15px;
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        margin-right: 3px;
+        margin-left: 2px;
+    }
     .col-s-1 {
         width: 8.33333%;
     }
