@@ -10,16 +10,18 @@
 <head>
     <title>Title</title>
     <style>
-        h1{
-            padding-left: 5%;
-        }
         #display{
             width: 450px;
             margin: 0 auto;
             padding: 0 30px 20px;
             background: white;
             border: solid navy 2px;
+            padding-left: 5%;
         }
+        .hover:hover{
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
@@ -27,9 +29,9 @@
     <h1>Product Description: ${description}</h1>
     <h1>List Price: ${price}</h1>
     <h1>Discount Percent: ${discount_percent} %</h1>
-    <h1>Discount Amount: ${discount} %</h1>
+    <h1>Discount Amount: ${discount} </h1>
     <h1>Discount Price: ${total}</h1>
-    <button><a href="http://localhost:8080/discount.jsp">RESET</a></button>
+    <button class="hover"><a href="http://localhost:8080/discount.jsp" style="color: black; text-decoration: none">RETURN</a></button>
 </div>
 
 </body>
