@@ -30,7 +30,7 @@
     <h1>List Price: ${price}</h1>
     <h1>Discount Percent: ${discount_percent} %</h1>
     <h1>Discount Amount: ${discount} </h1>
-    <h1>Discount Price: ${total}</h1>
+    <h1>Discount Price: ${discountPrice}</h1>
     <button class="hover"><a href="http://localhost:8080/discount.jsp" style="color: black; text-decoration: none">RETURN</a></button>
 </div>
 
