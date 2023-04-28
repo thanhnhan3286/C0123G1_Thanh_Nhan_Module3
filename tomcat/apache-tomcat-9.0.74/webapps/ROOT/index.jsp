@@ -54,7 +54,9 @@
         </div>
         <br>
         <h4>RESULT: </h4>
-        <h4>${a} ${c} ${b} = ${result}</h4>
+        <c:if test="${b != 0}">
+        <h4>${a} ${c} ${b} ${equal} ${result}</h4>
+        </c:if>
         <h4>${exception}</h4>
     </fieldset>
 

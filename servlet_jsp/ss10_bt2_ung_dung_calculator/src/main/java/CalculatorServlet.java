@@ -16,35 +16,35 @@ public class CalculatorServlet extends HttpServlet {
         float b = Float.parseFloat(request.getParameter("secondOperand"));
         String c = request.getParameter("operator");
         String exception = "";
+        String equal = " = ";
         float result = 0;
         try {
-            Calculate calculate = new Calculate();
             switch (c.charAt(0)) {
                 case '+':
-                    result = calculate.addition(a, b);
+                    result = a + b;
                     break;
                 case '-':
-                    result = calculate.subtraction(a, b);
+                    result = a - b;
                     break;
                 case 'x':
-                    result = calculate.times(a, b);
+                    result = a * b;
                     break;
                 case '/':
                     if (b != 0) {
-                        result = calculate.division(a, b);
+                        result = a / b;
                         break;
                     } else {
                         throw new ArithmeticException("Can't divide by zero, please try again.");
                     }
             }
-        }catch (ArithmeticException e){
+        } catch (ArithmeticException e) {
             exception = e.getMessage();
         }
-
         request.setAttribute("result", result);
         request.setAttribute("a", a);
         request.setAttribute("b", b);
         request.setAttribute("c", c);
+        request.setAttribute("equal", equal);
         request.setAttribute("exception", exception);
         request.getRequestDispatcher("/index.jsp").forward(request, response);
     }
