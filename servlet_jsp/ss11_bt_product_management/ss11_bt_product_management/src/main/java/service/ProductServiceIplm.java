@@ -31,12 +31,7 @@ public class ProductServiceIplm implements IProductService {
 
     @Override
     public void update(int id, Products products) {
-        List<Products> productsList = productRepository.getAll();
-        for (int i = 0; i < productsList.size(); i++) {
-            if(id == productsList.get(i).getId()){
-
-            }
-        }
+        productRepository.edit(id, products);
     }
 
 

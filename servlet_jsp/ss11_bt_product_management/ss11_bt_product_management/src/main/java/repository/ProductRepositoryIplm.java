@@ -30,6 +30,17 @@ public class ProductRepositoryIplm implements IProductRepository {
         for (int i = 0; i < productsList.size(); i++) {
             if(id == productsList.get(i).getId()){
                 productsList.remove(i);
+                break;
+            }
+        }
+    }
+
+    @Override
+    public void edit(int id, Products products) {
+        for (int i = 0; i < productsList.size(); i++) {
+            if(id == productsList.get(i).getId()){
+                productsList.set(i,products);
+                break;
             }
         }
     }
