@@ -33,15 +33,4 @@ public class ProductServiceIplm implements IProductService {
     public void update(int id, Products products) {
         productRepository.edit(id, products);
     }
-
-
-    @Override
-    public Products showById(int id) {
-        return null;
-    }
-
-    @Override
-    public Products findByName(String name) {
-        return null;
-    }
 }

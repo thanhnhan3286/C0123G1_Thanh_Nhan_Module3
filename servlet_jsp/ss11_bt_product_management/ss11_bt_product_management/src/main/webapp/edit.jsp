@@ -49,7 +49,7 @@
         <input class="form-control" name="description" value="${description}"><br>
         <label>Nhà sản xuất</label>
         <input class="form-control" name="producer" value="${producer}"><br>
-        <button class="btn btn-success" type="submit" ">Update</button>
+        <button class="btn btn-success" type="submit">Update</button>
     </form>
 </div>
 </form>

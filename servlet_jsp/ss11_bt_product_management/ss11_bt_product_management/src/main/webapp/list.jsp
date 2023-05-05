@@ -77,6 +77,14 @@
     </c:forEach>
     </tbody>
     <button class="btn btn-primary" onclick="window.location.href='/products?action=create'">Thêm mới</button>
+    <br>
+    <div class="d-flex">
+        <form class="d-flex" action="/products" method="get">
+            <input type="hidden" name="action" value="search"/>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="productName" value="${productName}">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
 </table>
 
 </div>
