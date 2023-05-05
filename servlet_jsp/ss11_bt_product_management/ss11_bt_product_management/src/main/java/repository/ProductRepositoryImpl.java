@@ -5,7 +5,7 @@ import model.Products;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProductRepositoryIplm implements IProductRepository {
+public class ProductRepositoryImpl implements IProductRepository {
     private static List<Products> productsList = new ArrayList<>();
 
     static {

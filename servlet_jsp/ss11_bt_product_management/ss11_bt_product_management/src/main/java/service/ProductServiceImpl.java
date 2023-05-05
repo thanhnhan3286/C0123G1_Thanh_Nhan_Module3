@@ -2,12 +2,12 @@ package service;
 
 import model.Products;
 import repository.IProductRepository;
-import repository.ProductRepositoryIplm;
+import repository.ProductRepositoryImpl;
 
 import java.util.List;
 
-public class ProductServiceIplm implements IProductService {
-    private IProductRepository productRepository = new ProductRepositoryIplm();
+public class ProductServiceImpl implements IProductService {
+    private IProductRepository productRepository = new ProductRepositoryImpl();
 
     @Override
     public List<Products> findAll() {

@@ -2,7 +2,7 @@ package controller;
 
 import model.Products;
 import service.IProductService;
-import service.ProductServiceIplm;
+import service.ProductServiceImpl;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -14,7 +14,7 @@ import java.util.List;
 @WebServlet(name = "ProductsServlet", value = "/products")
 public class ProductsServlet extends HttpServlet {
 
-    private IProductService productService = new ProductServiceIplm();
+    private IProductService productService = new ProductServiceImpl();
 
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
