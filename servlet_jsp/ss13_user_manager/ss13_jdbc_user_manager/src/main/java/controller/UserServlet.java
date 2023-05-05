@@ -39,18 +39,6 @@ public class UserServlet extends HttpServlet {
                 case "sort":
                     sortByName(request, response);
                     break;
-                case "search":
-                    List<User> userListSearch = new ArrayList<>();
-                    List<User> userList = userDAO.selectAllUsers();
-                    String userCountry = request.getParameter("userCountry");
-                    for (int i = 0; i < userList.size(); i++) {
-                        if (userCountry.equals(userList.get(i).getName())) {
-                            userListSearch.add(userList.get(i));
-                        }
-                    }
-                    request.setAttribute("userListSearch", userListSearch);
-                    request.getRequestDispatcher("/list.jsp").forward(request, response);
-                    break;
                 default:
                     listUser(request, response);
                     break;
@@ -75,7 +63,7 @@ public class UserServlet extends HttpServlet {
                     updateUser(request, response);
                     break;
                 default:
-                    request.getRequestDispatcher("/error.jsp").forward(request,response);
+                    throw new RuntimeException("error");
             }
         } catch (SQLException ex) {
             throw new ServletException(ex);

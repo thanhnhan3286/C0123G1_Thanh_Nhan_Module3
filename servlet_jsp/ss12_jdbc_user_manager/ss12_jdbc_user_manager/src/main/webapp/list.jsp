@@ -19,6 +19,12 @@
         <a href="/users?action=create">Add New User</a>
         <br>
         <a href="/users?action=sort">Sort By Name</a>
+        <br>
+        <form class="d-flex" action="/users" method="get">
+            <input type="hidden" name="action" value="search"/>
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="userName" value="${userCountry}">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
     </h2>
 </center>
 <div align="center">
@@ -44,6 +50,10 @@
             </tr>
         </c:forEach>
     </table>
+
 </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 </html>
