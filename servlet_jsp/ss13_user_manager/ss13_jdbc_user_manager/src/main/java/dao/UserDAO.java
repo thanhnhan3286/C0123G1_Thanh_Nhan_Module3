@@ -164,4 +164,7 @@ public class UserDAO implements IUserDAO{
             }
         }
     }
+
+    public List<User> search(String country) {
+    }
 }

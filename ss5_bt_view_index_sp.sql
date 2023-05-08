@@ -61,7 +61,6 @@ END //
 DELIMITER ;
 -- DROP PROCEDURE set_product;
 CALL set_product(7,'IP3','I-PHONE 3', 30, 20, NULL, 1);
-
 -- Tạo store procedure xoá sản phẩm theo id
 DELIMITER //
 CREATE PROCEDURE delete_product(IN p_id INT)

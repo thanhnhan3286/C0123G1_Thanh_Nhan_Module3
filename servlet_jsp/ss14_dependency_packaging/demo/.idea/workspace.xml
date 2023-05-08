@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="558fc812-5f19-426a-b1a8-7f9f4e594b45" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../CaseSturdyModule3_2_WEB/Project_banhang/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseSturdyModule3_2_WEB/Project_banhang/.idea/Project_banhang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseSturdyModule3_2_WEB/Project_banhang/.idea/libraries/sqljdbc42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseSturdyModule3_2_WEB/Project_banhang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseSturdyModule3_2_WEB/Project_banhang/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseSturdyModule3_2_WEB/Project_banhang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_bt_product_management/.idea/ss11_bt_product_management.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss13_user_manager/ss13_jdbc_user_manager/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bai1/GiaiPhuongTrinhBac2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss14_dependency_packaging/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss14_dependency_packaging/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss14_dependency_packaging/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss14_dependency_packaging/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ss14_dependency_packaging/src/main/java/GiaiPhuongTrinhBac2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseSturdyModule3_1_database/furama.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseSturdyModule3_1_database/furama.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../demo/ss13_transaction/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../demo/ss13_transaction/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss11_bt_product_management/ss11_bt_product_management/src/main/java/controller/ProductsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss11_bt_product_management/ss11_bt_product_management/src/main/java/controller/ProductsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss13_user_manager/ss13_jdbc_user_manager/src/main/java/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss13_user_manager/ss13_jdbc_user_manager/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss13_user_manager/ss13_jdbc_user_manager/src/main/java/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss13_user_manager/ss13_jdbc_user_manager/src/main/java/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss5_bt_view_index_sp.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss5_bt_view_index_sp.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2PUovpOsJ3mDVuDbfl9BvEQ3t9V" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="GiaiPhuongTrinhBac2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai1.GiaiPhuongTrinhBac2" />
+      <module name="demo.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GiaiPhuongTrinhBac2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="558fc812-5f19-426a-b1a8-7f9f4e594b45" name="Changes" comment="" />
+      <created>1683521255606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683521255606</updated>
+      <workItem from="1683521256804" duration="784000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -62,6 +62,12 @@ public class UserServlet extends HttpServlet {
                 case "edit":
                     updateUser(request, response);
                     break;
+                case "search":
+                    String country = request.getParameter("country");
+                    List<User> searchUserList = userDAO.search(country);
+                    request.setAttribute("searchUserList", searchUserList);
+                    request.getRequestDispatcher("view/search.jsp").forward(request, response)
+                    break;
                 default:
                     throw new RuntimeException("error");
             }
